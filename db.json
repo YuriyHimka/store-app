@@ -1,0 +1,62 @@
+{
+  "result": {
+    "products": [
+      {
+        "id": 1,
+        "imageUrl": "https://images.unsplash.com/photo-1545127398-14699f92334b",
+        "name": "Product name",
+        "count": 4,
+        "size": {
+          "width": 200,
+          "height": 200
+        },
+        "weight": "200g",
+        "comments": [
+          "CommentModel",
+          "CommentModel"
+        ]
+      },
+
+      {
+        "id": 2,
+        "imageUrl": "https://images.unsplash.com/photo-1577174881658-0f30ed549adc",
+        "name": "Product name",
+        "count": 1,
+        "size": {
+          "width": 200,
+          "height": 200
+        },
+        "weight": "200g",
+        "comments": [
+          "CommentModel",
+          "CommentModel"
+        ]
+      },
+
+      {
+        "id": 3,
+        "imageUrl": "https://images.unsplash.com/photo-1583394838336-acd977736f90",
+        "name": "Product name",
+        "count": 1,
+        "size": {
+          "width": 200,
+          "height": 200
+        },
+        "weight": "200g",
+        "comments": [
+          "CommentModel",
+          "CommentModel"
+        ]
+      }
+    ],
+
+    "comments": [
+      {
+        "id": 3,
+        "productId": 1,
+        "description": "some text here",
+        "date": "14:00 22.08.2021"
+      }
+    ]
+  }
+}
